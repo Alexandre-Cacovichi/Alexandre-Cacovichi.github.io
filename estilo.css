@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background-color:#1791c8;
+}
+
+.BotoesInicial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*height: 300px;*/
+    margin: 10px;
+}
+
+.BotoesInicial a {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+a .home {
+    background-color: #1791c8;
+}
+
+/* editar style do botão */
+.BotoesInicial button {
+    height: 100px; /* altura do botão individual */
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #272727;
+    color: #1791c8;
+    font-size: medium;
+    text-decoration: none;
+    color: #1791c8;
+}
+.BotoesInicial button a {
+    text-decoration: none;
+    color: #1791c8;
+    
+}
+.container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.imagem {
+    width: 700px;
+    height: 400px; /* Ajuste conforme necessário */
+    border-radius: 8px; /* Apenas para estética */
+}
+p {
+    font-family: 'Arial', sans-serif; /* Define a fonte como Arial */
+    font-size: 16px; /* Define o tamanho da fonte como 16 pixels */
+  
+}
+ .imagem2 {
+    width: 250px;
+    height: 250px; /* Ajuste conforme necessário */
+    border-radius: 8px; /* Apenas para estética */
+}
+
+.linkedin{
+    width: 100px; /* Ajuste conforme necessário */
+    border-radius: 8px; /* Apenas para estética */
+}
+
+.whatsapp{
+    width: 60px; /* Ajuste conforme necessário */
+    border-radius: 8px; /* Apenas para estética */
+    align-items: center;
+    text-align: center;
+}
+
+.botao{
+    align-items: center;
+}
+
+.projetos {
+    margin: 16px 10% 0;
+}
+
+.projetos img {
+    margin-right: 16px;
+    width: 35%;
+}
+
+.projetos2 {
+    margin: 16px 10% 0;
+}
+
+.projetos2 img {
+    margin-right: 16px;
+    width: 35%;
+    height: 260px;
+    border: 1px solid black
+}
+
+/* 
+.projetos img, p {
+    width: 40%;
+} */
